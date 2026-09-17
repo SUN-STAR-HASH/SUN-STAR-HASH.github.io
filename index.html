@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>문병선 | AI 연구 포트폴리오</title>
+  <meta name="description" content="문병선의 연구 경험과 프로젝트. 자율주행과 VLA, 3D 단기기억과 텍스트 장기기억을 결합한 예측·의사결정에 관심을 두고 공부합니다.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a4e78'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Arial' font-weight='700' font-size='38' fill='white'%3EM%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">본문으로 이동</a>
+<main id="main" class="page">
+  <header class="intro">
+    <h1>문병선</h1>
+    <p>서울과학기술대학교 기계자동차공학과 학부생으로, 현재 <a href="https://kuaicv.com/">고려대학교 Computer Vision Lab</a>에서 <a href="https://kuaicv.com/professor/">김상필 교수님</a>의 지도 아래 연구 인턴으로 활동하고 있습니다.</p>
+    <p>주요 관심 분야는 <strong>자율주행과 Vision-Language-Action(VLA)</strong>입니다. 현재 관측뿐 아니라 과거의 움직임과 상호작용을 기억하여, 주변 상황을 이해하고 예측과 행동으로 연결하는 지능을 연구하고 싶습니다.</p>
+    <nav class="profile-links" aria-label="프로필 링크">
+      <a href="mailto:bsdoor0208@naver.com">Email</a><span aria-hidden="true">/</span>
+      <a href="documents/CV_Moon.pdf" target="_blank" rel="noopener">CV <span class="filetype">PDF</span></a><span aria-hidden="true">/</span>
+      <a href="https://github.com/SUN-STAR-HASH">GitHub</a>
+    </nav>
+  </header>
+
+  <section aria-labelledby="interests-heading">
+    <h2 id="interests-heading">연구 관심 분야 <span>Research Interests</span></h2>
+    <p>BEHAVIOR-1K 프로젝트를 통해 시각·언어 정보와 행동 정책을 연결하는 VLA 구조를 학습했고, 최근 <strong>VGGT 등 3D Reconstruction 방법</strong>을 공부하며 공간 정보를 활용한 메모리 구조에 관심을 넓혔습니다.</p>
+    <p style="margin-top:14px">구체적으로는 최근 관측에서 얻은 주변 환경과 객체의 공간 정보를 <strong>3D 표현의 단기기억</strong>으로 유지하고, 시간이 지난 핵심 사건·이동 이력·객체 간 상호작용은 <strong>간결한 텍스트 등의 장기기억</strong>으로 요약해 저장하는 방식을 연구하고자 합니다. 현재 상황에 필요한 기억을 검색하여 주변 객체의 의도와 미래 궤적을 예측하고, VLA 기반 자율주행 의사결정에 활용하는 것이 목표입니다.</p>
+  </section>
+
+  <section class="news" aria-labelledby="news-heading">
+    <h2 id="news-heading">소식 <span>News</span></h2>
+    <div class="news-line"><time datetime="2026-08">2026.08</time><p>고려대학교 Computer Vision Lab에서 연구 인턴을 시작했습니다.</p></div>
+  </section>
+
+  <section aria-labelledby="research-heading">
+    <h2 id="research-heading">연구 경험 <span>Research Experience</span></h2>
+    <article class="experience">
+      <div class="entry-heading"><h3><a href="https://kuaicv.com/">고려대학교 Computer Vision Lab</a></h3><span class="date">2026.08 - 현재</span></div>
+      <p class="meta">연구 인턴 · 지도교수: 김상필</p>
+      <p>3D Reconstruction, Diffusion Models, 워터마크 제거 관련 논문을 리뷰하고 발표합니다. 각 방법의 핵심 아이디어와 실험 결과를 정리하고, 관련 실험 수행을 보조합니다.</p>
+    </article>
+    <article class="experience">
+      <div class="entry-heading"><h3>서울과학기술대학교 지능시스템연구실</h3><span class="date">2025.03 - 2026.03</span></div>
+      <p class="meta">기계자동차공학과 학부연구생</p>
+      <p>PyTorch 기반 딥러닝 모델 구현, 데이터 전처리와 학습·검증 데이터셋 구성을 경험했습니다. PyTorch Lightning 학습 구조를 실습하고, 학습률·배치 크기를 조정하며 모델별 성능을 비교했습니다.</p>
+    </article>
+  </section>
+
+  <section aria-labelledby="projects-heading">
+    <h2 id="projects-heading">프로젝트 <span>Selected Projects</span></h2>
+    <article class="project" id="behavior">
+      <a class="project-image" href="documents/BEHAVIOR-1K_Capstone.pdf" target="_blank" rel="noopener" aria-label="BEHAVIOR-1K 캡스톤 발표자료 PDF 보기"><img src="assets/behavior.png" width="520" height="300" alt="OmniGibson에서 양팔 로봇이 쥐덫 설치 작업을 수행하는 비교 시연"></a>
+      <div class="project-body">
+        <h3>BEHAVIOR-1K 기반 양팔 로봇 정책 학습</h3>
+        <p class="meta">캡스톤디자인 · 2026.03 - 2026.06</p>
+        <p class="authors">강지호, <strong>문병선</strong> <span class="advisor">| 지도교수: 하종은</span></p>
+        <p>OpenPI / π0.5 기반 VLA 정책을 제한된 GPU 환경에서 학습하고, OmniGibson에서 가정 내 작업 수행을 평가한 프로젝트입니다.</p>
+        <p><strong>담당 역할.</strong> OmniGibson 평가 환경 구축, 작업 수행 영상 생성 및 평가 결과 정리. 동작 정지·반복 행동 등 실패 사례를 분석했습니다.</p>
+        <p class="result">선정한 12개 작업에서 실행 결과를 비교하며, 긴 작업에서의 동작 안정성과 복구 행동의 한계를 확인했습니다.</p>
+        <div class="resource-links"><a href="documents/BEHAVIOR-1K_Capstone.pdf" target="_blank" rel="noopener">발표자료 <span class="filetype">PDF</span></a><a href="https://github.com/SUN-STAR-HASH/behavior1k">Code</a><a href="https://github.com/SUN-STAR-HASH/behavior1k/blob/main/assets/videos/task_05_setting_mousetraps_296_1st_vs_lightweight.mp4">시연 영상</a></div>
+      </div>
+    </article>
+
+    <article class="project" id="pig">
+      <a class="project-image" href="documents/Pig_Posture_Report.pdf" target="_blank" rel="noopener" aria-label="돼지 자세 인식 보고서 PDF 보기"><img src="assets/pig.jpg" width="520" height="300" alt="돼지의 서 있는 자세와 누운 자세를 바운딩 박스와 레이블로 표시한 대회 예시" loading="lazy"></a>
+      <div class="project-body">
+        <h3>Kaggle Pig Posture Recognition</h3>
+        <p class="meta">Computer Vision · 2026.01 - 2026.03</p>
+        <p class="authors"><strong>문병선</strong>, 강지호, 신창용</p>
+        <p>제공된 Bounding Box에서 돼지 영역을 추출하고 다섯 가지 자세를 분류했습니다. 팀에서는 YOLO, EfficientNetV2, ConvNeXt와 전처리·학습·추론 전략을 비교했습니다.</p>
+        <p><strong>담당 역할.</strong> 이미지·Bounding Box 기반 데이터셋 구성, YOLO 모델 학습·추론, 전처리 실험 및 오분류 분석.</p>
+        <p class="result">보고서 내 YOLO 실험은 Public LB F1 <strong>0.723 → 0.916</strong>을 기록했습니다. 팀 전체 최고 점수는 EfficientNetV2의 <strong>0.956</strong>입니다.</p>
+        <div class="resource-links"><a href="documents/Pig_Posture_Report.pdf" target="_blank" rel="noopener">보고서 <span class="filetype">PDF</span></a><a href="https://github.com/SUN-STAR-HASH/kaggle">Code</a><a href="https://www.kaggle.com/competitions/pig-posture-recognition">대회 · 이미지 출처</a></div>
+      </div>
+    </article>
+
+    <article class="project" id="nlp">
+      <a class="project-image" href="documents/Disaster_Tweets_Report.pdf" target="_blank" rel="noopener" aria-label="재난 트윗 분류 보고서 PDF 보기"><img src="assets/nlp.jpg" width="520" height="300" alt="재난 트윗 분류 대회 공식 표지의 구급차" loading="lazy"></a>
+      <div class="project-body">
+        <h3>Kaggle NLP with Disaster Tweets</h3>
+        <p class="meta">Natural Language Processing · 2025.07 - 2025.11</p>
+        <p class="authors">김동우, 김민석, 이규민, <strong>문병선</strong></p>
+        <p>트윗이 실제 재난을 설명하는지 판별하는 이진 분류 프로젝트입니다. 팀에서는 LSTM / GRU, Transformer, Logistic Regression을 비교했습니다.</p>
+        <p><strong>담당 역할.</strong> URL·멘션·특수문자 정제, TF-IDF 기반 Logistic Regression 학습, 프랑스어 역번역 데이터 증강 및 오분류 분석.</p>
+        <p class="result">보고서 기준 Logistic Regression의 <strong>Accuracy 0.78 · Macro F1 0.77</strong>. 재난 클래스의 낮은 재현율을 분석하고 개선 방향을 정리했습니다.</p>
+        <div class="resource-links"><a href="documents/Disaster_Tweets_Report.pdf" target="_blank" rel="noopener">보고서 <span class="filetype">PDF</span></a><a href="https://github.com/SUN-STAR-HASH/kaggle">Code</a><a href="https://www.kaggle.com/competitions/nlp-getting-started">대회 · 이미지 출처</a></div>
+      </div>
+    </article>
+  </section>
+
+  <section aria-labelledby="education-heading">
+    <h2 id="education-heading">학력 <span>Education</span></h2>
+    <div class="entry-heading"><h3>서울과학기술대학교</h3><span class="date">2021.03 - 현재</span></div>
+    <p class="meta">기계자동차공학과 학사과정</p>
+    <p>전체 평점 <strong>3.68 / 4.5</strong> · 전공 평점 <strong>3.83 / 4.5</strong></p>
+  </section>
+
+  <section aria-labelledby="skills-heading">
+    <h2 id="skills-heading">기술 및 학습 <span>Skills & Learning</span></h2>
+    <dl class="skills"><div><dt>개발</dt><dd>Python · PyTorch · PyTorch Lightning · scikit-learn · YOLO</dd></div><div><dt>실험</dt><dd>데이터 전처리·증강 · 하이퍼파라미터 조정 · 모델 성능 비교 · OmniGibson</dd></div><div><dt>학습</dt><dd>DeepLearning.AI 딥러닝·LLM·컴퓨터 비전 강의 수강 및 프로젝트 적용</dd></div></dl>
+  </section>
+  <footer><span>문병선 · <a href="mailto:bsdoor0208@naver.com">bsdoor0208@naver.com</a></span><span>Updated September 2026</span></footer>
+</main>
+</body>
+</html>
